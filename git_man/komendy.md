@@ -32,6 +32,8 @@ git push origin test:test	-jak powyżej z tym że w drugą stronę, lokalne repo
 
 git push origin :test		-kasuje gałąź "test" na zdlanym repozytorium
 
+git push origin +test		-wymusza wyslanie galezi "test" na zdalane repozytorium
+
 rm nazwa.pliku
 git rm nazwa.pliku		-pierwsza komenda kasuje plik, druga kasuje info z poczekalni - po commit należy wymusić używając -f
 

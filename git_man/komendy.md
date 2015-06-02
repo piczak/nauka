@@ -2,6 +2,8 @@ Komendy gita z przykladami
 
 https://github.com/piczak/nauka.git
 
+test git
+
 gitk				-graficzny git
 
 git status			-pokazuje pliki ktróre zostały zmienione

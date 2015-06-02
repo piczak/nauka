@@ -20,6 +20,8 @@ git clone url			-pobiera istniejące repozytorium wraz ze wszystkimi rewizjami
 
 git remote add origin url	-przypisanie url do wyrazu "origin"
 
+git remote show origin		-pokazuje url przypisany do wyrazu "origin"
+
 git branch test			-tworzy gałąź o nazwie "test"
 
 git checkout test		-przełącza się na gałąź "test"
@@ -37,7 +39,7 @@ git push origin +test		-wymusza wyslanie galezi "test" na zdalane repozytorium
 rm nazwa.pliku
 git rm nazwa.pliku		-pierwsza komenda kasuje plik, druga kasuje info z poczekalni - po commit należy wymusić używając -f
 
-git rm --cached nazwa.pliku	kasuje plik tylko z poczekalni,sam plik zostaje w katalogu
+git rm --cached nazwa.pliku	-kasuje plik tylko z poczekalni,sam plik zostaje w katalogu
 
 git rm test/\*.log		-kasuje pliki z rozszerzeniem .log z katalugu "test"
 
